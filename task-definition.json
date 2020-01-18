@@ -51,27 +51,13 @@
     "placementConstraints": [],
     "memory": "1024",
     "taskRoleArn": null,
-    "compatibilities": [
-      "EC2"
-    ],
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:590424727973:task-definition/myTask:2",
     "family": "myTask",
-    "requiresAttributes": [
-      {
-        "targetId": null,
-        "targetType": null,
-        "value": null,
-        "name": "com.amazonaws.ecs.capability.ecr-auth"
-      }
-    ],
     "pidMode": null,
     "requiresCompatibilities": [
       "EC2"
     ],
     "networkMode": "bridge",
     "cpu": "1024",
-    "revision": 2,
-    "status": "ACTIVE",
     "inferenceAccelerators": null,
     "proxyConfiguration": null,
     "volumes": []
