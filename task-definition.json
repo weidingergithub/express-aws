@@ -1,0 +1,78 @@
+{
+    "ipcMode": null,
+    "executionRoleArn": null,
+    "containerDefinitions": [
+      {
+        "dnsSearchDomains": null,
+        "logConfiguration": null,
+        "entryPoint": null,
+        "portMappings": [
+          {
+            "hostPort": 80,
+            "protocol": "tcp",
+            "containerPort": 3000
+          }
+        ],
+        "command": null,
+        "linuxParameters": null,
+        "cpu": 0,
+        "environment": [],
+        "resourceRequirements": null,
+        "ulimits": null,
+        "dnsServers": null,
+        "mountPoints": [],
+        "workingDirectory": null,
+        "secrets": null,
+        "dockerSecurityOptions": null,
+        "memory": 500,
+        "memoryReservation": null,
+        "volumesFrom": [],
+        "stopTimeout": null,
+        "image": "590424727973.dkr.ecr.us-east-1.amazonaws.com/repx:4653f242053a613fc82936995bdccb9f01c149b6",
+        "startTimeout": null,
+        "firelensConfiguration": null,
+        "dependsOn": null,
+        "disableNetworking": null,
+        "interactive": null,
+        "healthCheck": null,
+        "essential": true,
+        "links": null,
+        "hostname": null,
+        "extraHosts": null,
+        "pseudoTerminal": null,
+        "user": null,
+        "readonlyRootFilesystem": null,
+        "dockerLabels": null,
+        "systemControls": null,
+        "privileged": null,
+        "name": "express-aws"
+      }
+    ],
+    "placementConstraints": [],
+    "memory": "1024",
+    "taskRoleArn": null,
+    "compatibilities": [
+      "EC2"
+    ],
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:590424727973:task-definition/myTask:2",
+    "family": "myTask",
+    "requiresAttributes": [
+      {
+        "targetId": null,
+        "targetType": null,
+        "value": null,
+        "name": "com.amazonaws.ecs.capability.ecr-auth"
+      }
+    ],
+    "pidMode": null,
+    "requiresCompatibilities": [
+      "EC2"
+    ],
+    "networkMode": "bridge",
+    "cpu": "1024",
+    "revision": 2,
+    "status": "ACTIVE",
+    "inferenceAccelerators": null,
+    "proxyConfiguration": null,
+    "volumes": []
+  }
